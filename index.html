@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <!-- Background animation -->
+    <canvas id="bgCanvas"></canvas>  
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <h1>
+            Hi, I'm <span class="pink">Jailyn Ruffin!</span>
+        </h1>
+        <h2 class="subheading">Front-End Developer & Cybersecurity Enthusiast</h2>
+        <div class="button-group">
+            <button class="btn">View My Work</button>
+            <a href="./contact.html" class="btn">Say Hello</a>
+        </div>
+        <a href="https://www.linkedin.com/in/jailyn-r-426382262/" target="_blank" class="linkedin-btn">
+            <img src="./assets/linkedin-logo.svg" alt="LinkedIn Logo">
+        </a>
+    </section>
+
+    <section id="about">
+        <div class="about-content">
+            <img src="./assets/profile-photo.jpg" alt="Jailyn Ruffin" class="profile-photo">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>
+                    I’m a passionate front-end developer with a love for creating beautiful, user-friendly websites. My interest in <b>cybersecurity</b> drives me to build secure, reliable, and scalable web applications. Whether it’s designing intuitive interfaces or solving technical challenges, I’m dedicated to bringing ideas to life with clean, efficient code.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-item">HTML</div>
+            <div class="skill-item">CSS</div>
+            <div class="skill-item">JavaScript</div>
+            <div class="skill-item">React</div>
+            <div class="skill-item">Cybersecurity</div>
+            <div class="skill-item">Git & GitHub</div>
+        </div>
+    </section>
+    
+    <section id="fun-fact">
+        <h2>Random Fact About Me</h2>
+        <p id="fact">Click the button to learn something fun about me!</p>
+        <button onclick="generateFact()">Generate Fact</button>
+    </section>
+    
+    
+
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
